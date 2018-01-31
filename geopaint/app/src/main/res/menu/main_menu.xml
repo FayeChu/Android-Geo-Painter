@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pen"
+        android:title="Use Pen"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/pick_color"
+        android:icon="@drawable/ic_palette_white_24px"
+        android:title="Pick Color"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_save_white_24px"
+        android:title="Save Drawing"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24px"
+        android:title="Share Drawing"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+</menu>

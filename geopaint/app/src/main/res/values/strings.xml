@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Geo-Paint</string>
+    <string name="title_activity_maps">Geo-Paint</string>
+    <string name="pick_color">Pick Color</string>
+</resources>
